@@ -6,7 +6,9 @@ from setuptools import (
 REQUIRES = [
     'allure-pytest',
     'requests',
-    'restclient']
+    'restclient',
+    'pydantic'
+]
 
 setup(
     name='dm_api_account',
